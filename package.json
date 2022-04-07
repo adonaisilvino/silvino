@@ -1,0 +1,27 @@
+{
+    "name": "binance",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "bot": "node -r dotenv/config index",
+        "start": "npx nodemon -r dotenv/config app"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.4",
+        "browserify": "^17.0.0",
+        "dotenv-safe": "^8.2.0",
+        "ejs": "^3.1.6",
+        "engines": "^0.4.0",
+        "env": "^0.0.2",
+        "express": "^4.17.3",
+        "form": "^0.2.4",
+        "ichimoku": "^1.0.4",
+        "readline-sync": "^1.4.10",
+        "safe": "^0.4.7",
+        "ws": "^8.5.0"
+    }
+}
